@@ -68,6 +68,11 @@ The following PostCSS plugins are also included with this plugin:
 you'd like to disable it, pass `shouldPurge:false` to the plugin options
 object.
 
+### PurgeCSS purged @gridsome/remark-prismjs style
+
+You can solve this by adding `/*purgecss start ignore*/` at the start of your theme file and
+`/*purgecss end ignore*/` at the end of file.
+
 ## postcss-import
 
 [postcss-import](https://github.com/postcss/postcss-import) included by
